@@ -1,0 +1,6 @@
+--* The internet is the physical, wires, signals and towers connecting networks.
+--* The web is the digital space that holds concepts to be shared. 
+Or as Vsauce put it: "The internet connects users, the web connects information."
+--* A web directory is also known as a folder, it organizes and contains files.
+--* A VCS enables changes to be documented, reversed, and creates ease when it is neccessary for the information to be used and modified by multiple individuals. 
+--* I found the new course layout interesting, yay gamification.
