@@ -1,0 +1,4 @@
+1. Data is divided into packets, then sent through different channels, and reassembled as it reaches it's destination.
+2. A DNS server tracks down and communicates to the computer the IP address of a target web site.
+3. Stored in a browser, information about the activity happening on a given website, this data is known as cookies.
+4. Protocols, Domains, and Paths are the basic parts of a URL.
