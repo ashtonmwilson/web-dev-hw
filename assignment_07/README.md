@@ -1,0 +1,5 @@
+# Assignment 07
+
+1. The difference between divs, classes, ids and spans is that divs are used to creat over arching differentiated sections, classes communicate with the style sheet for styling of the div and can style in multiple places, ids act similarly but are unique with each specific id only occuring once alowing your to target a specific element. Span is the most broad and acts to hold informtion.
+2.  Alt text is text that describes the content for people who's browsers cannot load the information. It is also used to help the visually impaired.
+3. Working from the assignment sheet, again I was blocked from accesing the websites module for this weeks content. I used the book, and followed the old link in the assignments page to a 2018 version of the website, which had most of the neccessary information. I googled the rest. I am not sure where the "quizes" mentioned in the sylabus live. I am hoping they are the README.md. I hope it's ok that I used black instead of gray. For some reason one of my packages does not like the 'outside of "these"'.
