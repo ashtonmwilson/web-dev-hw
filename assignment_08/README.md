@@ -1,9 +1,7 @@
-# Technical Report
+# Assignment 08
 
- Learning Html was a bit dificult, It was a refresher for me, and I was able to use alot of old information I had from previous courses. I am still at a place where I need to constantly refer to the resources to remember what code instances look like.
+ 1. Learning Html was a bit dificult, It was a refresher for me, and I was able to use alot of old information I had from previous courses. I am still at a place where I need to constantly refer to the resources to remember what code instances look like.
 
- I am anxious about managing dual code instances in CSS.
+ 2. I am anxious about having one more document to refer to in CSS, and having to move fluidly between the two. It does seem simple enough that I am excited to be able to make the sites look a little less primitive.
 
- For this assignment I utilized information I already had from previous work, and applied the knoweldge in a format that made sense to me.
-
- <img src="../images/workflowscreenshot.png" alt="A screen shot of my atom workflow" title="Atom Work Flow" width="auto" height="220" />
+ 3. For this assignment I reworked an assignment from the last time I took the class, it seems this one most closely matches the previous times I have taken the course.
