@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="Fire School" content="Fire school instructable">
+    <meta name="author" content="AshtonMWilson">
+    <title>Fire School Contact</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <style>
+      body {background-color: black; font-family: 'Lato', sans-serif;}
+      h1 {color: tan;}
+      h2 {color: brown;}
+      h3 {color: red;}
+      p {color: white;}
+      form {color: white;}
+    </style>
+  </head>
+    <body>
+        <h1><strong>Fire School</strong></h1>
+        <p>Take the test on Fire School below.</p>
+        <hr />
+        <form action="http://www.example.com/firetest.php" method="post" id="Test-form" class="basic-forms">
+        <h2>Fire Test</h2>
+        <fieldset>
+          <label>
+            Name:
+            <input type="text" name="name" id="name_input" placeholder="your name" required autofocus/>
+          </label>
+          <p>
+          <label>
+            1. The three things a fire needs to survive are:
+            <br />(select the best option)
+            <br />
+            <br />
+            <input type="radio" name="fireneeds" value="fuel, oxygen, and hope"/>Fuel, oxygen and hope.
+            <br />
+            <input type="radio" name="fireneeds" value="oxygen, heat, and intensity"/>Oxygen, heat, and intensity.
+            <br />
+            <input type="radio" name="fireneeds" value="oxygen, heat or ignition, and fuel"/>Oxygen, heat or ignition, and fuel.
+            <br />
+            <input type="radio" name="fireneeds" value="fuel, oxygen, and matches"/>Fuel, oxygen, and matches.
+            <br />
+            <em>Hint:</em> When properly balanced, the fire will be smokeless.
+          </label>
+          </p>
+          <p>
+          <label>
+            2. Select all sizes of sticks that are neccessary to start a fire:
+            <br />
+            <input type="checkbox" name="sticksize" value="pencil" /> Pencil
+            <br />
+            <input type="checkbox" name="sticksize" value="thumb" /> Thumb
+            <br />
+            <input type="checkbox" name="sticksize" value="fist" /> Fist
+            <br />
+            <input type="checkbox" name="sticksize" value="pencil lead" checked /> Pencil Lead
+            <br/>
+            <input type="checkbox" name="sticksize" value="grass" /> Grass
+          </label>
+            </p>
+          <label>
+            3. List the three P's and describe how they apply to making a good fire:
+          </label>
+          <textarea name="comments" cols="6" rows="8" style="min-width:100%">
+          </textarea>
+           <br />
+         </fieldset>
+         <br />
+        <input type="submit" name="answer" value="Submit"/>
+      </form>
+      <div class="navigation" id="contactnav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <br />
+            <li><a href="contact.html">Test</a></li>
+            <br />
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </body>
+</html>
