@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- Setting up the document with Html -->
+<html lang="en">
+  <head>
+    <title>Milk Crate Create Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="MCCContact" content="An informational page for MilkCrateCreate">
+    <meta name="author" content="AshtonMWilson">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <style>
+      Body {background-color:#54d1a7}
+      H1 {color:white}
+      H3 {color:white}
+      TD {color:#e84c29}
+      TABLE {
+        border: 1px white;
+        color: white
+      }
+      TH {background-color: #54d1a7}
+      BUTTON {
+        background-color: transparent;
+        border: none;
+      }
+      LABEL {color:#e84c29}
+      LEGEND {color:#ff3a79}
+      P {color: white}
+      </style>
+  </head>
+    <!-- begining of body -->
+  <body>
+
+    <!-- Company -->
+    <h1>Milk Crate Create</h1>
+    <!-- address -->
+    <h3><address>
+      117 Victor Dr<br />
+      Hailey Idaho, 83340<br />
+      <a href="tel:+208-721-8078">208.721.8078</a><br />
+      <a href="mailto:info@milkcratecreate.com">Email Now</a>
+    </address></h3>
+    <!-- Horizontal rule -->
+    <hr>
+    <br/>
+    <!-- Table for hours -->
+    <table bgcolor="white">
+      <thread>
+        <tr>
+          <th>Day</th>
+          <th>Hours</th>
+        </tr>
+      </thread>
+      <tbody>
+        <tr>
+          <th>Monday</th>
+          <td>8am-5pm</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>8am-5pm</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>8am-5pm</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>8am-5pm</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td>8am-5pm</td>
+        </tr>
+        <tr>
+          <th>Saturday</th>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <th>Sunday</th>
+          <td>8am-5pm</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <!-- form for contact -->
+    <form action="http://www.milkcratecreate.com/info.php" method="get">
+      <fieldset>
+        <legend>
+          With your help, We can help:
+        </legend>
+        <br />
+        <label for="name">
+          Name:
+          <input type="text" name="name" size="15" maxlength="30" autofocus>
+        </label>
+        <br />
+        <br />
+        <label for="phone">
+          Phone Number
+          <input type="phone" name="phone" maxlength="30">
+        </label>
+        <br />
+        <br />
+        <label for="email">
+          Email Address
+          <input type="email" name="email" maxlength="20">
+        </label>
+      </fieldset>
+      <br />
+      <!-- contact field set -->
+      <fieldset>
+        <legend>
+          What solution can we provide?
+        </legend>
+        <p>
+          Please describe the nature of your problem, including<br />
+          all parties involved. Use as many details as possible.
+        </p>
+        <p>
+          <textarea rows="10" cols="60" id="problem"
+          placeholder=
+          "My 2000 square foot roof needs snow shoveling.
+We need 200sqft of wood flooring installed.
+Our business needs a website and social media content, we only have $500."></textarea>
+        </p>
+        <p>
+          <label for="nature">
+            What is the nature of the assistance you require?
+          </label>
+          <br />
+          <select name="nature">
+            <option value="physical">Manual Labor</option>
+            <option value="relational">Relational</option>
+            <option value="Digital">Digital</option>
+          </select>
+          <br />
+          <br />
+          <label for="hear">
+            How did you find Milk Crate Create?
+          </label>
+          <br />
+          <input id="online" type="radio" name="hear" value="o">
+          <label for="online">Online</label>
+          <input id="word" type="radio" name="hear" value="w">
+          <label for="word">Word of mouth</label>
+        </p>
+          <!-- button -->
+        <button>
+          <input
+          type="image" src="images/SubmitButton.PNG"
+          alt="get button" width="200"/>
+        </button>
+      </fieldset>
+    </form>
+
+  </body>
+  <footer>
+  </footer>
+</html>
