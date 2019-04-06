@@ -1,0 +1,35 @@
+/* style sheet for assignment 09 */
+
+/* color reference:
+HEX:#FE0273
+HEX:#53CEED
+HEX:#FFE401
+*/
+
+body {
+  background-color:;
+}
+.primary-box{
+  width: 400px;
+  background-color:#FFE401;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin:auto;
+  padding:80px;
+  color:white;
+  }
+h1{
+    text-align: center;
+    text-shadow:2px 4px 4px #53CEED;
+  }
+h2{
+  text-align: center;
+  text-shadow:2px 4px 4px #FE0273;
+}
+img{
+    width:400px;
+    opacity:0.9;
+  }
+surf {
+  background-color: transparent;
+}
