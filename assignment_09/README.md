@@ -7,4 +7,4 @@
   b. Neon blue HEX:#53CEED
   c. Dark Yellow HEX:#FFE401
 
-3. Getting caught up, I returned to the traditionla approach of going through the week's content virst and then revisiting it as I worked through the assignments requirements. I would love for my Assignment 06 to also be considered for color, and styling.
+3. Getting caught up, I returned to the traditionla approach of going through the week's content virst and then revisiting it as I worked through the assignments requirements. I would love for my Assignment 06 to also be considered for color, and styling. I also used the issues board to problem solve an image issue, and found that in order to get github desktop to commit something you have to change more than capitalization of an image extension hence this line.
