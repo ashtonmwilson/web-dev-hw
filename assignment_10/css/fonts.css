@@ -1,13 +1,13 @@
 /* font style sheet for assignment 10 */
 
 @font-face {
-  font-family: 'Inconsolata';
+  font-family:'Inconsolata';
   src: url('../fonts/Inconsolata-Bold.ttf') format('truetype');
   font-weight: bold;
   font-size: normal;
 }
 @font-face {
-  font-family: 'Montserrat';
+  font-family:'Montserrat';
     src: url('../fonts/Montserrat-ExtraLight.ttf') format('turetype');
     font-weight: normal;
     font-size: normal;

@@ -1,6 +1,6 @@
 /* style sheet for assignment 10 */
 * {
-  font-family: 'Montserrat', monospace, arial, helvetica,;
+  font-family: 'Montserrat', monospace, arial;
 }
 }
 pre {
@@ -9,11 +9,12 @@ pre {
 .grades {
   font-family: 'Inconsolata', monospace, arial, helvetica,;
 }
-h1 {
-  font-family: 'Inconsolata', monospace, arial, helvetica,;
-}
+
 body {
   background-color:black;
+}
+h1 {
+  font-family: 'Inconsolata', monospace, arial, helvetica,;
 }
 .primary-box{
   font-family: 'Montserrat', sans-serif, courier,;
