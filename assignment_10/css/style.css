@@ -1,0 +1,20 @@
+/* style sheet for assignment 10 */
+*{
+  font-family: 'Montserrat', sans-serif, courier,;
+}
+.grades {
+  font-family: 'Inconsolata', monospace, arial, helvetica,;
+}
+body {
+  background-color:black;
+}
+.primary-box{
+  width: 600px;
+  //background-color:#C59227;
+  background-color:#EBA700;
+  border: 20px solid brown;
+  border-radius: 0px;
+  margin:auto;
+  padding:80px;
+  text-align: left;
+}
