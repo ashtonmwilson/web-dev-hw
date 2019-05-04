@@ -1,14 +1,22 @@
 /* style sheet for assignment 10 */
-*{
+* {
+  font-family: 'Montserrat', monospace, arial, helvetica,;
+}
+}
+pre {
   font-family: 'Montserrat', sans-serif, courier,;
 }
 .grades {
+  font-family: 'Inconsolata', monospace, arial, helvetica,;
+}
+h1 {
   font-family: 'Inconsolata', monospace, arial, helvetica,;
 }
 body {
   background-color:black;
 }
 .primary-box{
+  font-family: 'Montserrat', sans-serif, courier,;
   width: 600px;
   //background-color:#C59227;
   background-color:#EBA700;
