@@ -1,0 +1,39 @@
+/* style sheet for assignment 10 */
+
+@font-face {
+  font-family:'Inconsolata';
+  src: url('../fonts/Inconsolata-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-size: normal;
+}
+@font-face {
+  font-family:'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.ttf') format('turetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+  font-family: 'Montserrat', monospace, arial;
+}
+.grades {
+  font-family: 'Inconsolata', monospace, arial, helvetica,;
+}
+
+body {
+  background-color:black;
+}
+h1 {
+  font-family: 'Inconsolata', monospace, arial, helvetica,;
+}
+.primary-box{
+  font-family: 'Montserrat', sans-serif, courier,;
+  width: 600px;
+  //background-color:#C59227;
+  background-color:#EBA700;
+  border: 20px solid brown;
+  border-radius: 0px;
+  margin:auto;
+  padding:80px;
+  text-align: left;
+}
