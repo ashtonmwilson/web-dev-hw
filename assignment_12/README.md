@@ -1,4 +1,4 @@
-# Assignment 11 Readme
-1. Padding is the distance between the content and the border, a border surrounds the content, and the margin is the distances between the border and the container or parent.
-2. ![Basic Site Sketch](./images/site-sketch.jpg)
-3. Unchartered...ish territories. Having never done assignment 11 before I hesitated, and procrastinated. Then I made a pot of coffee, drank it, read the website. And dug in. Was surprised to not find any code pen examples with a side bar... but all the info was there. Almost watched the walkthrough, then remembered Justine's email, felt like I could do it without it, and I would be better off.
+# Assignment 12 Readme
+1. my iimaginary client is not so imaginary. Building on week 11's concepts, I chose to use my business. Most of my work comes through word of mouth, and I have not needed a sit yet, but my needs are an conduit for my portfolio, and a way for people to get a feel for the kind of work I do. Ultamitely a place to send people who want to look at something rather than talk to me.
+2. display: block
+3. for this assignment, I copied and pasted the content I hadfrom last weeks assignment. I had built it based on the lessons rather than the tutorials. Then I thought it might be quicker to use the turtoials only to find that they build on eachother and do not initially match the 
