@@ -56,26 +56,27 @@ body {
    animation-timing-function:ease-in-out;
 }
 .primaryPage{
-  width: 100;
+  width: 4000pt;
   height: 1000pt;
-  /* margin-left: 200pt; */
+  margin-left: 200pt;
   background-color: black;
 }
 .VideoBox{
   margin-left: 250pt;
   height: 200pt;
+  padding-top: 5%;
 }
 video {
+  z-index: 3;
   height: 300pt;
 }
 .SiteTitle{
   z-index: 4;
-  float: left;
-  padding: 10%;
-  //background-color: white;
+  padding-top: 6%
+  float:none;
+  background-color: white;
 }
 h1 {
-  position: fixed;
   float: left;
   font-family: 'Montserrat';
 }
