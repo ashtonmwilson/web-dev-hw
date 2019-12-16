@@ -1,4 +1,4 @@
-# Assignment 11 Readme
-1. Padding is the distance between the content and the border, a border surrounds the content, and the margin is the distances between the border and the container or parent.
-2. 
-3. Unchartered...ish territories. Having never done assignment 11 before I hesitated, and procrastinated. Then I made a pot of coffee, drank it, read the website. And dug in. Was surprised to not find any code pen examples with a side bar... but all the info was there. Almost watched the walkthrough, then remembered Justine's email, felt like I could do it without it, and I would be better off.
+# Final Assignment
+1. I definitely learned new stuff, and am learning new stufr. I am hoping to figure out how to put the menu bar floating on the top left, and have most of the page one image, simplified like many of the wwwawards sites.
+2. Yes, in my googling I learned that many people who are web designers did not go to college, some are self taught and some went to coding specific courses, that are able to focus on one thing, like the block system at some schools. I also learned that most websites incorporate a whole lot of javascript these days.
+3. I started by copying in my work from week 11, and posting a link in the submission forum, as I may work past midnight and I;m not sure when the axe will actually drop. Week 11 had some of the bones I wanted to use, like a non scrolling side bar, which I hope to make a top bar. Then I pulled in images I created, and picked out pieces from other projects I thought I would need. As i was building I also googled alot of things that I could not remembered because it was the fastest way to get to the content.
