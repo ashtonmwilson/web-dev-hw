@@ -1,12 +1,12 @@
 
- /* Hosted from your site: */
+ /* dem fonts */
  @font-face {
-     font-family: 'helvetica';
+     font-family: helvetica, 'avenir';
      font-weight: bold;
      font-style: normal;
  }
  @font-face {
-     font-family: 'garamond';
+     font-family: garamond, 'minion' ;
      font-weight: normal;
      font-style: normal;
  }

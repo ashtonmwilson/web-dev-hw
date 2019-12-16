@@ -105,7 +105,16 @@ main {
     width: 90%;
     height: 80pt;
     padding-top: 2em;
+    margin-top: 3em;
     }
+      .marketing_container {
+      z-index: 5;
+      background-color: gray;
+      width: 90%;
+      height: 80pt;
+      padding-top: 2em;
+      margin-top: 3em;
+      }
 .service_text {
 }
 .icon {
