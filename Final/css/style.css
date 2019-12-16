@@ -23,12 +23,3 @@ lighter green: #C5DE9F
 body {
   background-color: white;
 }
-.LeftSideBar {
-  z-index: 5;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  max-width: 200pt;
-  background-color: black;
-  margin-left: -1em;
-}
