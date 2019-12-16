@@ -61,3 +61,6 @@ body {
   background: #ddd;
   color: black;
 }
+.hamburgur {
+  max-width: 30pt;
+}
