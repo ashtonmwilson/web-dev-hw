@@ -70,9 +70,14 @@ body {
   padding: 10em;
 }
 video {
+  display: block;
+margin: 0 auto;
 }
 .SiteTitle{
   z-index: 4;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 h1 {
   float: left;
