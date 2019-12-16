@@ -1,93 +1,55 @@
 
-
 /* Menu */
 
-/* menu bar (vessel)*/
+/* MENU BAR (vessel): */
 menu {
-  background-color: gray;
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
+  background-color: gray;
 }
 
-/* top level links erson */
-#internalLinks{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
- }
-
-}
-
-/* drop it like it's... */
-
-
-/* social media */
-
-#socialMedia .menu-item {
+/* TOP shelf: */
+#site-links .menu-item {
   width: 4em;
-  padding: 1em 1em;
-  display: inline block;
+  padding: 1em 2em;
+  display: inline-block;
+  background-color: black;
   text-align: center;
-  color: white:
+  color: white;
+}
+#site-links .menu-item:hover {
+  background-color: black;
+  color: #ff0099;
 }
 
-#internallinks .menu-item:hover {
-  opacity: ;
-
-  color: salmon;
-  text-decoration: underline overline;
-  text-decoration-color: salmon;
-  text-decoration-style: wavy;
-}
-
-/* Drop it like its... */
-#internalLinks .dropdown {
+/* DROPDOWN: */
+#site-links .dropdown {
   display: inline-block;
   width: 6em;
 }
-#internalLinks .dropdown-content {
+#site-links .dropdown-content {
   display: none;
   position: absolute;
-
-  background-color: saddlebrown;
+  background-color: black;
   z-index: 5;
 }
-#internalLinks .dropdown-content a {
-  color: #FFF;
-  font-family: 'Arvo', serif;
+#site-links .dropdown-content a {
+  color: white;
+  font-family: 'garamond';
 }
-#internalLinks .dropdown-content a:hover {
-  color: saddlebrown;
+#site-links .dropdown-content a:hover {
+  color: #ff0099;
   font-weight: 900;
 }
-#internalLinks .dropdown:hover .dropdown-content {
+#site-links .dropdown:hover .dropdown-content {
   display: block;
 }
-#internalLinks .dropdown-item {
+#site-links .dropdown-item {
   min-width: 6em;
   padding: .5em 1em;
   display: block;
-
   text-align: center;
 }
 .dropdown-item:hover {
-  background-color: chocolate;
-}
-
-/* Socialize it up... */
-#socialMedia {
-  padding: .5em;
-  display: inline-block;
-  float: right;
- }
-#socialMedia .social-item {
-  margin: 0px 5px;
-}
-#socialMedia img {
-  width: 20px;
-  height: 20px;
-  opacity: .5;
-}
-#socialMedia img:hover {
-  opacity: 1;
+  background-color: gray;
 }

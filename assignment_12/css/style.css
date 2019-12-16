@@ -1,1 +1,99 @@
 /* style sheet for assignment 12 */
+
+ /* SITE-WIDE ELEMENTS: */
+ body {
+   background-color: gray;
+   background-repeat: repeat-x;
+ }
+ h1, span {
+   margin: 0;
+   font-family: 'helvetica', cursive;
+   color: black;
+   text-align: center;
+ }
+h4 {
+  font-family: 'garamond', serif;
+  font-size: 1em;
+}
+q {
+   font-family: 'garamond', serif;
+   font-size: 1em;
+ }
+ a {
+   font-family: 'garamond';
+   text-decoration: none;
+   color: inherit;
+ }
+ * {
+   font-family: 'helvetica', serif;
+   color: black;
+ }
+
+
+/* zones */
+.main-container {
+  width: 80%;
+  margin: 3em auto;
+  padding: 1em;
+  background-color: white;
+  border: 10px solid black;
+
+}
+header {
+
+}
+main {
+  margin: 3em 0;
+}
+
+
+/* LAYOUT PIECES: */
+
+/* Site information: */
+.site-heading {
+  width:70%;
+  margin: 4em auto;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+#site-title {
+  margin: .5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+
+.site-logo {
+  margin: auto;
+  margin-top: -60px;
+  display: inline-block;
+  postion: relative;
+  z-index: 2;
+}
+.post-content {
+  line-height: 1.45em;
+}
+.post-content p {
+  margin: 4em 3em;
+}
+
+.post-content p:first-letter {
+  margin-right: 1px;
+  font-size: 4em;
+  color: #ff0099;
+}
+.pull-quote:hover {
+  background-image: url('../images/quote-right.svg');
+  background-size: 75px 75px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+/* form */
+
+form {
+  color: white;
+  background-color: gray;
+  
+}

@@ -1,1 +1,12 @@
-/* style sheet for assignment 12 */
+
+ /* Hosted from your site: */
+ @font-face {
+     font-family: 'helvetica';
+     font-weight: bold;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'garamond';
+     font-weight: normal;
+     font-style: normal;
+ }
