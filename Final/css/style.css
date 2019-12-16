@@ -19,6 +19,13 @@ darker green: #1B4D1B
 lighter green: #C5DE9F
 */
 
+html {
+  background: url(images/backgroungshoe.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
   background-color: white;
