@@ -19,14 +19,45 @@ darker green: #1B4D1B
 lighter green: #C5DE9F
 */
 
-html {
-  background: url(images/backgroungshoe.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 body {
   background-color: white;
+  margin: 0;
+}
+
+.background_image {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+.background_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+.header_bar{
+  overflow: hidden;
+  background-color: #40B450;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header_bar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.header_bar a:hover {
+  background: #ddd;
+  color: black;
 }
