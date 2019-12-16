@@ -1,0 +1,94 @@
+/* style sheet for assignment 10 */
+
+@font-face {
+  font-family:'Garamond Header';
+    font-weight: normal;
+    font-size: normal;
+}
+body {
+  background-color: white;
+}
+.LeftSideBar {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  max-width: 200pt;
+  background-color: black;
+  margin-left: -1em;
+}
+.ButtonBox {
+  z-index:6
+  height: 200pt;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30%;
+  background-color: black;
+}
+.logo {
+  z-index: 7;
+  margin-left: 2em;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: inherit;
+}
+.logo:hover {
+  opacity: 0.6;
+}
+.icon {
+ display: inline-block;
+ /* vertical trick */
+ *display: inline;
+ vertical-align: middle;
+}
+.icon:hover {
+   border-radius: 50%;
+   border-color: white;
+   border-style: dashed;
+   border-width: thin;
+   opacity: 0.5;
+   /* animation trick */
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-timing-function:ease-in-out;
+}
+.primaryPage{
+  width: auto;
+  height: auto;
+  margin-left: 180pt;
+  margin-top: -20pt;
+  background-color: black;
+  padding: 10em;
+}
+.VideoBox{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10em;
+}
+video {
+  display: block;
+margin: 0 auto;
+}
+.SiteTitle{
+  z-index: 4;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+h1 {
+  float: left;
+  font-family: 'Montserrat';
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+}
