@@ -28,7 +28,10 @@ q {
    font-family: 'helvetica', serif;
    color: black;
  }
-
+ form {
+   background-color: gray;
+   padding: 2em;
+ }
 
 /* zones */
 .main-container {
@@ -89,11 +92,17 @@ main {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-
-/* form */
-
-form {
-  color: white;
+.recreation_container {
+  z-index: 5;
   background-color: gray;
-  
+  width: 90%;
+  height: 100pt;
+  }
+.service_text {
+  padding-left: 6em;
+  padding-top: 2em;
+}
+.icon {
+  z-index: 6;
+  padding-left: .2em;
 }
