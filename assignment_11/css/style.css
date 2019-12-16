@@ -56,25 +56,23 @@ body {
    animation-timing-function:ease-in-out;
 }
 .primaryPage{
-  width: 4000pt;
-  height: 1000pt;
-  margin-left: 200pt;
+  width: auto;
+  height: auto;
+  margin-left: 180pt;
+  margin-top: -20pt;
   background-color: black;
+  padding: 10em;
 }
 .VideoBox{
-  margin-left: 250pt;
-  height: 200pt;
-  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10em;
 }
 video {
-  z-index: 3;
-  height: 300pt;
 }
 .SiteTitle{
   z-index: 4;
-  padding-top: 6%
-  float:none;
-  background-color: white;
 }
 h1 {
   float: left;
