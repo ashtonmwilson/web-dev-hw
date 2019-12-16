@@ -96,13 +96,21 @@ main {
   z-index: 5;
   background-color: gray;
   width: 90%;
-  height: 100pt;
-  }
-.service_text {
-  padding-left: 6em;
+  height: 80pt;
   padding-top: 2em;
+  }
+  .maintenence_container {
+    z-index: 5;
+    background-color: gray;
+    width: 90%;
+    height: 80pt;
+    padding-top: 2em;
+    }
+.service_text {
 }
 .icon {
+  float: left;
   z-index: 6;
   padding-left: .2em;
+
 }
