@@ -1,12 +1,12 @@
 
  /* dem fonts */
  @font-face {
-     font-family: helvetica, 'avenir';
+     font-family: Helvetica, 'Avenir';
      font-weight: bold;
      font-style: normal;
  }
  @font-face {
-     font-family: garamond, 'minion' ;
+     font-family: Garamond, 'Minion' ;
      font-weight: normal;
      font-style: normal;
  }
