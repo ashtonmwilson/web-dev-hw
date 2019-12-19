@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Setting up the document with Html -->
+<html lang="en">
+  <head>
+    <title>positioning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="Final" content="sidebar">
+    <meta name="author" content="AshtonMWilson">
+    <link rel="stylesheet" type="text/css" href="css/teststyle.css">
+  </head>
+
+
+  <!-- body -->
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="dropdown">
+        <button class="dropbtn">
+          <img src="images/hambergur.png" alt="hambergur" height="30pt">
+          <!--<i class="fa fa-caret-down"></i>-->
+        </button>
+        <div class="dropdown-content">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="background_image">
+      <img src="images/backgroundshoe.jpg" alt="Shoe background image">
+    </div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </body>
+</html>
