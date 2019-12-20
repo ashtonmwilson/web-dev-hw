@@ -38,7 +38,7 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  min-width: 50%;
+  width: 100%;
   min-height: 50%;
 }
 .topnav {
@@ -101,11 +101,6 @@ body {
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #F29BC0;
   color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #F29BC0;
-  color: #40B450;
 }
 
 .dropdown:hover .dropdown-content {
